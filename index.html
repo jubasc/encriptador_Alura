@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DECODIFICADOR DE TEXTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><img src="./imagens/alura.png" alt="Logo da Alura" class="logo"></header>
+    <main class="entrada">
+        <section class="entrada_bloco1">
+            <textarea class="entrada_texto" placeholder="Digite seu texto"></textarea>
+            <div>
+                <p class="texto_aviso"> <img class="sinal_aviso" src="./imagens/aviso.png" alt="Sinal de Exclamação.">Apenas letras minúsculas e sem acento.</p>
+                <div class="area_de_botoes">
+                    <button class="botao_cpt" onclick="btnEncriptar()" >Criptografar</button>
+                    <button class="botao_dcpt" onclick="btnDesencriptar()" >Descriptografar</button>
+                </div>
+             </div>
+        </section>
+
+
+        <section class="entrada_bloco2">
+            <img class="boneca" src="./imagens/boneca.png" alt="Boneca sentada analisando um diamante com uma lupa.">
+            <div class="bloco2_texto">
+              <p>Digite ao lado o texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            <div>
+                <button class="botao_copia">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <br>
+    <br>
+    <br>
+    <footer class="rodape"> 2024 - Projetado por Anna Julia Santiago Conceição</footer>
+    <script src="challenge.js"></script>
+</body>
+
+</html>
